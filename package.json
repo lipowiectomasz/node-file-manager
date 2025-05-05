@@ -1,0 +1,17 @@
+{
+  "name": "file-manager",
+  "version": "1.0.0",
+  "description": "Node file manager",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "keywords": [
+    "manager",
+    "node",
+    "file"
+  ],
+  "author": "Tomasz Lipowiec",
+  "license": "ISC"
+}
