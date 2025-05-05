@@ -21,7 +21,7 @@ export async function handleCommand(input, currentDir) {
         case 'mkdir':
             return await handleFile(command, args, currentDir);
         case 'os':
-            return await handleOS(args);
+            return await handleOS(args, currentDir);
         case 'hash':
             return await handleHash(args, currentDir);
         case 'compress':
